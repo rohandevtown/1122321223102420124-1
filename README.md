@@ -13,3 +13,9 @@ Offline VS Code:
 Online and Offline VS Code:
     >> git status
     >> git add . / git add index.html index.css
+    >> git status
+    >> git commit -m "completed demo"
+    >> git push
+
+>> Branch:
+    >> git checkout -b "initialSetUp"
