@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero__section{
+    background-image: url(images/heroSectionBackground.png);
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 16px 45px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__menu_container{
+    display: flex;
+    gap: 20px;
+}
+
+.user__icon{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+@media only screen and (max-width: 700px){
+    .user__icon{
+        display: flex;
+    }
+    .link{
+        display: none;
+    }
+    .hero__section{
+        min-height: 80vh;
+    }
+}
