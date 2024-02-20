@@ -19,3 +19,8 @@ Online and Offline VS Code:
 
 >> Branch:
     >> git checkout -b "initialSetUp"
+
+
+## Grid (2D Layouts):
+    >> It always require media queries
+    >> It always works in ratio system
